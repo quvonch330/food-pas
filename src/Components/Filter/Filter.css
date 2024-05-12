@@ -1,0 +1,14 @@
+.Filter-item.active{
+  color: #EA7C69;
+}
+
+ .Filter-item.active::after {
+  content: '';
+  width: 37px;
+  height: 3px;
+  position: absolute;
+  bottom: -16px;
+  left: 0%;
+  background-color: #EA7C69;
+  border-radius: 10px;
+}

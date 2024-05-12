@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1f1d2bd2;
+  font-family: 'Barlow', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 100%;
+  background-color:transparent;
+}
+
+
+.Container {
+  max-width: 1220px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+}

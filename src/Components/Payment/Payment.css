@@ -1,0 +1,102 @@
+.Payment {
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1000000;
+  left: 0;
+  background-color: #675a5a84;
+}
+.Payment.active {
+  display: block;
+}
+.Payment-Container {
+  width: 418px;
+  height: 100vh;
+  color: #fff;
+  background-color: #1F1D2B;
+  padding: 14px 24px 24px 24px;
+  border-radius: 16px;
+  position: absolute;
+  right: 244px;
+  top: 0;
+  right: 0;
+  z-index: 10000000;
+ 
+}
+
+
+
+
+.Payment-btn {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 16px;
+
+}
+
+.Payment-btn div {
+  width: 101px;
+  height: 64px;
+  color: #AABAC1;
+  margin-right: 10px;
+  border: 1px solid #393C49;
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 8px;
+  outline: none;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+
+
+}
+
+.Payment-btn div.active {
+  color: #fff;
+  border-color: #abbbc2c9;
+  background-color: #41434c6d;
+}
+
+.Payment-btn div  .Payment-icon__check {
+  display: none;
+}
+.Payment-btn div.active .Payment-icon__check {
+  display: block;
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: 16px;
+  height: 16px;
+  color: #EA7C69;
+}
+
+form.Payment-form {
+  width: 100%;
+}
+
+
+
+
+
+.Form-Row {
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Form-Row hr {
+  display: none;
+}
+
+.Form-Row label {
+  width: 48%;
+}
+
